@@ -1,0 +1,85 @@
+{
+  "id": "store",
+  "version": "1.1.0",
+  "coreVersion": "0.7.0",
+  "home": false,
+  "inputs": [
+    {
+      "source": "LICENSE",
+      "target": "LICENSE"
+    },
+    {
+      "source": "MODULE.md",
+      "target": "README.md"
+    },
+    {
+      "source": "artwork/LICENSE-CC-BY-SA-4.0.txt",
+      "target": "artwork/LICENSE-CC-BY-SA-4.0.txt"
+    },
+    {
+      "source": "artwork/LICENSE-GPL-3.0.txt",
+      "target": "artwork/LICENSE-GPL-3.0.txt"
+    },
+    {
+      "source": "artwork/NOTICE.md",
+      "target": "artwork/NOTICE.md"
+    },
+    {
+      "source": "artwork/ihsplay-source.svg",
+      "target": "artwork/ihsplay-source.svg"
+    },
+    {
+      "source": "artwork/ihsplay.png",
+      "target": "artwork/ihsplay.png"
+    },
+    {
+      "source": "artwork/jellyfin.png",
+      "target": "artwork/jellyfin.png"
+    },
+    {
+      "source": "artwork/moonlight.png",
+      "target": "artwork/moonlight.png"
+    },
+    {
+      "source": "artwork/retroarch-source.svg",
+      "target": "artwork/retroarch-source.svg"
+    },
+    {
+      "source": "artwork/retroarch.png",
+      "target": "artwork/retroarch.png"
+    },
+    {
+      "source": "artwork/sources.json",
+      "target": "artwork/sources.json"
+    },
+    {
+      "source": "catalog.json",
+      "target": "catalog.json"
+    },
+    {
+      "source": "module.js",
+      "target": "module.js"
+    },
+    {
+      "source": "module.json",
+      "target": "module.json"
+    }
+  ],
+  "sourceFiles": [
+    "LICENSE",
+    "MODULE.md",
+    "artwork/LICENSE-CC-BY-SA-4.0.txt",
+    "artwork/LICENSE-GPL-3.0.txt",
+    "artwork/NOTICE.md",
+    "artwork/ihsplay-source.svg",
+    "artwork/ihsplay.png",
+    "artwork/jellyfin.png",
+    "artwork/moonlight.png",
+    "artwork/retroarch-source.svg",
+    "artwork/retroarch.png",
+    "artwork/sources.json",
+    "catalog.json",
+    "module.js",
+    "module.json"
+  ]
+}

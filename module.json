@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "store",
+  "version": "1.1.0",
+  "minCoreVersion": "0.7.0",
+  "title": "Unknown Store",
+  "description": "GitHub app and module catalog with owner-reviewed installation in Unknown Core.",
+  "disableDescription": "Hides the Store catalog and stops its module actions. Apps already installed from the Store are left installed with their data intact. Disabling this module does not undo third-party app installation or app behavior.",
+  "publisher": "Unknown Digital and Unknown Suite contributors",
+  "license": "MIT",
+  "requiresRoot": true,
+  "entry": "module.js",
+  "permissions": [
+    "Supplies a bundled catalog of public GitHub repository links; no remote catalog code is executed",
+    "Opens the Store view in Core and maintains its own activation marker",
+    "Individual IPK downloads and installation require a separate owner review in Core; third-party apps are outside module recovery"
+  ],
+  "actions": {
+    "status": {
+      "title": "Check Store status",
+      "description": "Shows whether the catalog module is active and how many project entries it contains. It does not contact GitHub or install anything.",
+      "readOnly": true,
+      "parameters": {}
+    },
+    "health": {
+      "title": "Check Store health",
+      "description": "Checks this module's activation marker and catalog structure. This does not certify third-party apps or test compatibility with your TV.",
+      "readOnly": true,
+      "parameters": {}
+    },
+    "catalog": {
+      "title": "View catalog sources",
+      "description": "Lists the project's bundled repository sources and compatibility notes. Release metadata and IPK files are fetched from GitHub only when you select a project.",
+      "readOnly": true,
+      "parameters": {}
+    },
+    "openStore": {
+      "title": "Open Unknown Store",
+      "description": "Opens the Store section inside Unknown Core. Opening the catalog does not download, install, update, or launch any third-party app.",
+      "readOnly": false,
+      "parameters": {}
+    }
+  }
+}
