@@ -1,0 +1,58 @@
+[
+  {
+    "id": "org.jellyfin.webos",
+    "name": "jellyfin",
+    "repo": "jellyfin/jellyfin-webos",
+    "commit": "ab4794046467cdb88212ccc29212300cf9112a43",
+    "file": "frontend/assets/icon-130.png",
+    "url": "https://raw.githubusercontent.com/jellyfin/jellyfin-webos/ab4794046467cdb88212ccc29212300cf9112a43/frontend/assets/icon-130.png",
+    "bytes": 7983,
+    "sha256": "0d06d3bbc70e26f99e136d1c7b79c809a64d9ff667a6ced47d786d2bfa3a8f17"
+  },
+  {
+    "id": "com.limelight.webos",
+    "name": "moonlight",
+    "repo": "mariotaku/moonlight-tv",
+    "commit": "cf96ecc72cdab3aae7ba0698f463b89065ae7e3b",
+    "file": "deploy/webos/icon_large.png",
+    "url": "https://raw.githubusercontent.com/mariotaku/moonlight-tv/cf96ecc72cdab3aae7ba0698f463b89065ae7e3b/deploy/webos/icon_large.png",
+    "bytes": 5762,
+    "sha256": "ffa8e3f4135159f1cf6f21aa8046b2517be99c841275fa8942c0e2efc4090584"
+  },
+  {
+    "id": "org.mariotaku.ihsplay",
+    "name": "ihsplay",
+    "repo": "mariotaku/ihsplay",
+    "commit": "3b382603a1238b96a5162112180edf8c990aed34",
+    "file": "deploy/webos/icon.png",
+    "url": "https://raw.githubusercontent.com/mariotaku/ihsplay/3b382603a1238b96a5162112180edf8c990aed34/deploy/webos/icon.png",
+    "bytes": 7853,
+    "sha256": "f4657f4be05099ff32a4c03b0c100cdb625da412e7e4937bb2fd193db37c64b2"
+  },
+  {
+    "id": "com.retroarch.webos",
+    "name": "retroarch",
+    "repo": "webosbrew/RetroArch",
+    "commit": "91430b9faa881e9ec2e35095de1c678eccc2aedb",
+    "file": "media/ico_src/icon128.png",
+    "url": "https://raw.githubusercontent.com/webosbrew/RetroArch/91430b9faa881e9ec2e35095de1c678eccc2aedb/media/ico_src/icon128.png",
+    "bytes": 2894,
+    "sha256": "515a57db6354f4035f890a9f91c5e198e8beb52093dd904471676b4151ce129f"
+  },
+  {
+    "file": "LICENSE-GPL-3.0.txt",
+    "url": "https://raw.githubusercontent.com/mariotaku/moonlight-tv/cf96ecc72cdab3aae7ba0698f463b89065ae7e3b/LICENSE.txt"
+  },
+  {
+    "file": "ihsplay-source.svg",
+    "url": "https://raw.githubusercontent.com/mariotaku/ihsplay/3b382603a1238b96a5162112180edf8c990aed34/deploy/icon.svg"
+  },
+  {
+    "file": "retroarch-source.svg",
+    "url": "https://raw.githubusercontent.com/webosbrew/RetroArch/91430b9faa881e9ec2e35095de1c678eccc2aedb/media/ico_src/icon.svg"
+  },
+  {
+    "file": "LICENSE-CC-BY-SA-4.0.txt",
+    "url": "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/69a2b7b1237732a134dd501ff55b9404cf2d1601/LICENSE"
+  }
+]
