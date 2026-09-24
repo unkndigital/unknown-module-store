@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "id": "store",
-  "version": "1.1.0",
-  "minCoreVersion": "0.7.0",
+  "version": "1.2.0",
+  "minCoreVersion": "0.8.0",
   "title": "Unknown Store",
   "description": "GitHub app and module catalog with owner-reviewed installation in Unknown Core.",
   "disableDescription": "Hides the Store catalog and stops its module actions. Apps already installed from the Store are left installed with their data intact. Disabling this module does not undo third-party app installation or app behavior.",
@@ -40,5 +40,6 @@
       "readOnly": false,
       "parameters": {}
     }
-  }
+  },
+  "updateStrategy": "enable"
 }

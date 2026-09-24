@@ -1,6 +1,6 @@
 {
   "name": "unknown-module-store",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "description": "GitHub app and module catalog with owner-reviewed installation in Unknown Core.",
   "license": "MIT",
